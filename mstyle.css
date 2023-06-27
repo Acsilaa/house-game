@@ -1,0 +1,71 @@
+
+body, html{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+	margin: 0px;
+    color: rgb(165, 165, 165);
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+
+button{
+    background-color: black;
+    font-size: 3em;
+    min-width: 5em;
+    height: 3em;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    color: rgb(165, 165, 165);
+    
+    font-family: 'Fredericka the Great', cursive;
+}
+body{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Fredericka the Great', cursive;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.main{
+    text-align: center;
+}
+.q{
+    text-align: center;
+    font-size: x-large;
+    height: 0;
+    
+}
+.optionsdiv{
+    text-align: center;
+    
+}
+.roomstory{
+    font-size: 120%;
+    font-family: 'Fredericka the Great', cursive;
+}
+.roomtitle{
+    font-family: 'Fredericka the Great', cursive;
+    
+}
+p{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 130%;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}
+.axepng{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    
+    
+}
